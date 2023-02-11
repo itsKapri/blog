@@ -1,0 +1,118 @@
+body ,*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.navbar{
+    display: flex;
+
+    
+}
+.search{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+}
+.blogname{
+    position: absolute;
+    color: aliceblue;
+    top: 15px;
+    left: 50%;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 9px;
+    cursor: pointer;
+    
+
+}
+.blog{
+    margin: 10px 20px;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.search input ,button{
+    border: none;
+    padding: 10px;
+}
+
+button{
+    cursor: pointer;
+    background-color: green;
+}
+.mainnav{
+    position: relative;
+    background-color: rgb(8, 8, 8);
+    padding: 15px;
+    font-size: 27px;
+
+}
+.navbar{
+    color: aliceblue;
+    text-decoration: none;
+}
+.blogtitle{
+    margin-top: 15px ;
+    font-size: x-large;
+}
+.bloglist{
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    margin: 2% 10% ;
+    /* background-color: gray; */
+}
+.post{
+    
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,auto));
+    gap: 50px;
+    justify-content: center;
+    
+}
+.postimg{
+    max-width: 100%;
+    border-radius: 8%;
+}
+.post-box{
+    border-radius: 8%;
+  box-shadow: 0 0 50px #ccc;
+    padding-right:8px;
+    padding-left: 8px;
+    padding-top: 3px;
+}
+.articaldate{
+    font-weight: normal;
+}
+.postdecp{
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+    border-radius: 8%;
+}
+.articaldate{
+    color:gray;
+}
+a{
+    color: rgb(12, 11, 11);
+    text-decoration: none;
+    border-radius: 8%;
+    
+
+}
+span{
+    color: red;
+}
+.footercon{
+    background: black;
+    padding: 20px;
+
+}
+.foot{
+    font-size: 20px;
+}
